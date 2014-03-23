@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport"       content="width=device-width, initial-scale=1.0" />
+    <meta name="description"    content="INFT3050 Assignment" />
+    <meta name="author"         content="Adrian Brown, Ashley Coleman, and Alex Ketley" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /> - B.E.T.T.E.R.</title>
+
+    <!-- Scripts -->
+    <!--[if lt IE 9]>
+        <script src="<%= ResolveClientUrl("~/assets/js/html5shiv.js") %>"></script>
+    <![endif]-->
+    <script src="<%= ResolveClientUrl("~/assets/js/jquery.js") %>"></script>
+    <script src="<%= ResolveClientUrl("~/assets/js/tabs.js") %>"></script>
+    <script src="/assets/js/sorttable.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+    <script src="<%= ResolveClientUrl("~/assets/js/navigation.js") %>"></script>
+
+    <!-- Fav icon and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/assets/ico/apple-touch-icon-144-precomposed.png" runat="server">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/assets/ico/apple-touch-icon-114-precomposed.png" runat="server">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/assets/ico/apple-touch-icon-72-precomposed.png" runat="server">
+                    <link rel="apple-touch-icon-precomposed" href="~/assets/ico/apple-touch-icon-57-precomposed.png" runat="server">
+                                   <link rel="shortcut icon" href="~/assets/ico/favicon.png" runat="server">
+
+    <!-- Styles -->
+    <link href="~/assets/css/style.css" rel="stylesheet" runat="server" />
+    <link href="~/assets/css/plain.css" rel="stylesheet" runat="server" />
+    <link href='http://fonts.googleapis.com/css?family=Hanalei+Fill' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="clouds">
+            <div class="container">
+                <div class="logo">
+                    <a href="/"><img src="/assets/img/logo.png" /></a>
+                </div>
+                <ul class="topmenu">
+                    <li><%: Html.ActionLink("Home", "Index", "Site") %> | </li>
+                    <li><%: Html.ActionLink("Contact", "Contact", "Site") %> | </li>
+                    <li><%: Html.ActionLink("About", "About", "Site") %> | </li>
+                    <li><%: Html.ActionLink("Help", "Help", "Site") %></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="search-thing">
+                    <form class="form-search">
+                        <input type="text" class="input-medium" placeholder="Search…" />
+                        <button type="submit">S</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="nav-mobile">
+                        <a href="#" id="showmenu"><img src="~/assets/img/menubtn.png" runat="server" alt=""></a>
+                    </div>
+                    <div class="account-links">
+                        <%: Html.Partial("_LoginPartial") %>
+                    </div>
+                    <ul class="nav-items ">
+                        <li><%: Html.ActionLink("Players", "Index", "Account") %></li>
+                        <li><%: Html.ActionLink("Characters", "Index", "Character") %></li>
+                        <li><%: Html.ActionLink("Battle Reports", "Index", "Battle") %></li>
+                        <li><%: Html.ActionLink("Exercise", "Index", "Exercise") %></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <asp:ContentPlaceHolder ID="FeaturedContent" runat="server" />
+
+        <div class="content">
+            <div class="container">
+                <article>
+                    <section class="content-wrapper main-content clear-fix">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div class="push"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="pull-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>
+                &copy; <%: DateTime.Now.Year %> B.E.T.T.E.R. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

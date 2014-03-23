@@ -1,0 +1,66 @@
+// Mobile
+@media (max-width: @navbarCollapseWidth) {
+	header {
+		
+					background: darken(#f9efbf, 10%) !important;
+	}
+	nav {
+		margin-bottom: 10px; 
+		.nav-items {
+			display: none !important;
+			width: 100%;
+			float: none;
+			position: relative;
+			li {
+				width: 100%;
+			}
+		}
+		.nav-active {
+			display: inline-block !important;
+		}
+		.nav-mobile {
+			display: inline-block !important;
+			img {
+				margin: (@nav-height / 2 - 15px) 0;
+			}
+		}
+		.bloop {
+			display: inline-block !important;
+			margin-top: -5px;
+			margin-bottom: 10px;
+			width: 100%;
+			li {
+				a {
+					margin: 0 -5px;
+				}
+			}
+		}
+		// .container {
+		// 	width: 100%; // Allow 
+		// 	.container {
+		// 		@fullwidthmargin: 5px;
+		// 		width: 100% - (@fullwidthmargin * 2);
+		// 		padding: 0 @fullwidthmargin;
+		// 	}
+		// }
+	}
+	header {
+		.clearfix {
+			margin-bottom: -10px;
+		}
+	}
+	.account {
+		.account-links {
+			margin-top: 0;
+		}
+		.search {
+			margin-top: 10px;
+		}
+		.account-linksRESPONSIVE {
+			margin-top: -10px;
+		}
+		.searchRESPONSIVE {
+			margin-top: 0;
+		}
+	}
+}

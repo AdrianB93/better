@@ -1,0 +1,569 @@
+.registerForm
+{
+    margin:auto;
+    
+}
+
+.registerForm-li
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.registerForm-li2
+{
+    margin:auto;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.centerMaker
+{
+    margin:auto;
+    text-align:center;
+  }
+
+.tableHolder
+{
+    margin:auto;
+    margin-top:3%;
+    margin-bottom:3%;
+    width:90%;
+ }
+
+.characterHeader
+{
+    font-size:large;
+    font-weight:900;
+}
+
+.textboxAlign
+{
+ float:right;
+ padding-left:10%; 
+ }
+
+
+
+.textboxAlign2
+{
+ float:right;
+ padding-right:10%;  
+ }
+
+.display-table-tr
+{  
+    width:100%; 
+}
+
+
+
+.td-character-1
+{
+   border-style:dashed;
+   border-width:1px;
+   text-align:center;
+   height:20px;
+   width:60%;
+}
+
+.td-character-2
+{
+   border-style:dashed;
+   border-width:1px;
+   text-align:center;
+   height:20px;
+   width:100px;
+}
+
+.td-character-3
+{
+   border-style:dashed;
+   border-width:1px;
+   text-align:center;
+   height:20px;
+   width:100px;
+}
+
+.td-character-4
+{
+   border-style:dashed;
+   border-width:1px;
+   text-align:center;
+   height:20px;
+   width:170px;
+}
+
+.td-character-5
+{
+   border-style:dashed;
+   border-width:1px;
+   text-align:center;
+   height:20px;
+   width:200px;
+}
+
+.display-table-td1
+{
+   border-style:dashed;
+   border-width:1px;
+   text-align:center;
+   height:20px;
+   width:80%;
+     
+}
+
+.display-table-td2
+{
+   
+   border-style:dashed;
+   border-width:1px;
+   text-align:center;
+   height:20px;
+   width:100px;
+   
+}
+
+
+.divContainer
+{
+    width:40%;
+    height:50%;
+    margin:auto;
+    margin-top:3%;
+    margin-bottom:2%;
+}
+
+h1
+{
+    color:#AA0000;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+
+#regiP
+{
+    padding-top:2px;
+}
+
+.MainScreen
+{
+    text-align:left;
+}
+
+ul
+{
+    list-style-type:none;
+}
+
+
+
+.profileHolder
+{
+    margin:auto;
+    width:800px;
+    height:600px;
+    clear:both;
+    }	
+
+
+
+.myHeader
+{
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	height:165px;
+	width:730px;
+	background-image:url(../../images/profileimages/profileHeader.png);
+	
+}
+
+.userHeading
+{
+	
+	font-size:48px;
+	color:#FFD739;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-bottom:0px;
+    text-align:left;
+}
+	
+
+.XPHolder
+{
+    padding:0;
+	text-align:left;
+	clear:right;
+	float:right;
+	height:70px;
+	width:250px;
+	color:#FFD739;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-right:10px;
+    margin-top:25px;
+}
+
+.XPLabel
+{
+    margin:0;
+    padding:1px;
+    font-size:x-large;
+	margin-top:2px;
+}
+
+.xpdataholder 
+{
+    float:left;
+    margin-right:23px;
+}
+
+.XPAmount
+{
+    padding:1%;
+    font-size:x-large;
+	margin-top:0px;
+	color:#FFFFFF;
+    float:right;
+}
+
+.memberParagraph
+{
+	font-size:12px;
+	color:#FFD739;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#myUserHeading
+{
+	
+	margin-top:40px;
+	width:400px;
+	text-align:left;
+	
+	
+}
+
+#myMemberSince
+{	
+    margin-top:25px;
+	width:400px;
+	text-align:left;
+		
+}
+
+#mylefttext
+{
+	margin-left:40px;
+	float:left;
+	
+}
+
+.monsterDisplay
+{
+border:dashed;
+border-width:1px;
+width:150px;	
+height:250px;
+float:left;
+margin-left:30px;
+text-align:center;
+}
+
+.monsterholder
+{
+margin:auto;
+width:750px;
+height:250px;
+margin-bottom:20px;	
+margin-top:40px;
+
+}
+
+.monsterImage
+{
+    width:100px;
+    height:100px;
+    border:solid;
+    border:1px;
+    margin-top:20px;
+    
+}
+.mybutton
+{
+  display: block;
+  text-transform: uppercase;
+  background: #590909;
+  color: #ffffff;
+  font-weight: bold;
+  margin:auto;
+  width:100px;
+  height:40px;
+  text-align:center;
+}
+
+#backlink
+{
+    float:right;
+}
+
+.mybutton:hover {
+  background: #620a0a;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.battletext
+{
+position:relative;
+top:10px;
+}
+
+.singleElement
+{
+
+    border:dashed;
+    border-width:1px;
+    float:left;
+    width:140px;
+    height:275px;
+    text-align:center;
+    position:relative;
+    margin-right:7px;
+    margin-left:7px;
+            
+}
+
+
+.chardivContainer
+{
+    width:70%;
+    height:70%;
+    margin:auto;
+    margin-top:3%;
+    margin-bottom:2%;
+    
+}
+
+.characterSegment
+{
+    margin-top:20px;
+}
+
+.elementHolder
+{
+    margin:9px;
+    margin-top:6%;
+}
+
+.bottomElement
+{
+position:absolute;
+bottom:0;
+width:130px;
+height:40px;
+margin-top:50px;
+vertical-align:bottom;
+}
+
+.createButton
+{
+    clear:left;
+    margin:auto;
+    text-align:center;
+    margin-top:6%;
+}
+
+.elementImage
+{
+    border:solid;
+    border-width:1px;
+    width:80px;
+    height:80px;
+    margin-top:10px;
+}
+
+.createNewButton
+{
+    width:150px;
+    height:50px;
+    text-align:center;
+}
+
+.newCharbutton {
+  display: block;
+  text-transform: uppercase;
+  background: #590909;
+  color: #ffffff;
+  padding: 10px 10px;
+  font-weight: bold;
+  
+}
+.newCharbutton:hover {
+  background: #620a0a;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pinCode
+{
+width:50px;
+margin-left:50px;
+}
+
+.elementRadio
+{
+    margin-top:20px;
+}
+
+.exercisedivContainer
+{
+    width:50%;
+    height:50%;
+    margin:auto;
+    margin-top:3%;
+    margin-bottom:2%;
+}
+
+.statText
+{
+    font-size:x-small;
+    padding:0px;
+    margin:0px;
+    text-align:left;
+    margin-left:6px;
+}
+
+.statTextHead
+{
+    font-size:x-small;
+    padding:0px;
+    margin:0px;
+    text-decoration:underline;
+    text-decoration-style:wavy;
+}
+
+.testDiv
+{
+    width:400px;
+    height:300px;
+    border:dashed;
+    border-width:1px;
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    
+}
+
+.testDiv1
+{
+    width:400px;
+    height:20px;
+    border:dashed;
+    border-width:1px;
+    border-color:black;
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+    color:#AA0000;
+    text-align:center;
+    text-transform:uppercase;
+  
+    
+}
+
+.overdivContainer
+{
+    width:100%;
+    height:70%;
+    margin:auto;
+    margin-top:3%;
+    margin-bottom:30%;
+}
+
+
+.testDivHolder
+{
+    
+    width:100%;
+    height:70%;
+    margin:auto;
+    margin-left:5%;
+    margin-top:1%;
+   }
+
+.monsterDisplay1
+{
+border-bottom:dashed;
+border-bottom-width:1px;
+width:390px;	
+height:125px;
+float:left;
+text-align:center;
+}
+
+
+.monsterImage1
+{
+    width:100px;
+    height:100px;
+    border:solid;
+    border:1px;
+    margin-top:10px;
+    float:left;
+    margin-left:20px;
+    
+}
+
+.mybutton2
+{
+  display: block;
+  text-transform: uppercase;
+  background: #590909;
+  color: #ffffff;
+  font-weight: bold;
+  float:right;
+  width:100px;
+  height:40px;
+  text-align:center;
+  margin-right:20px;
+  
+
+}
+
+.labelText
+{
+    text-align:left;
+    margin-left:150px;
+    margin-top:20px;
+}
+.smallBox
+{
+    width:30px;
+}
+
+th
+{
+    border:solid;
+    border-width:1px;
+    border-color:#808080;
+    background-color:#620a0a;
+    color:white;
+}
+
+.sortTH:hover
+{
+    
+    background-color:#ce1b1b;
+    cursor: pointer;
+}
+
+#xpLeftAmount 
+{
+    color:green;
+}
+
